@@ -9,20 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.firebaseapp.animesh.swipebutton.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/hello_world"
-        />
-
     <com.firebaseapp.animesh.swipebutton.SwipeButton
         android:id="@+id/my_swipe_button"
         android:layout_width="400dp"
         android:layout_height="50dp"
-        android:text="Button"
-        android:layout_below="@id/hello_world"
-        android:background="#888888"
-        android:textColor="#ffffff"
         />
 </RelativeLayout>
